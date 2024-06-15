@@ -14,6 +14,7 @@ app.use(cors())
 // app.use(myMiddleware);
 app.use('/api', route)
 
+
 app.use(express.static(path.join(__dirname, "/portfolio2/dist")));
 
 // Render client for any path
