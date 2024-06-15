@@ -8,7 +8,7 @@ export const Hero = () => {
             <div className="hero-section">
                 <div className="hero-text">
                     <h1>Hello, I'm <br /> <span> Abhisek</span> Pattanayak.</h1>
-                    <h3>I'm a Freelance UI/UX Designer and Developer based in London, England. <br /> I strives to build immersive and beautiful web applications through <br />carefully crafted code and user-centric design.</h3>
+                    <h3>I'm a student of MCA and an aspiring web developer based in India. <br/> I am passionate about creating immersive and beautiful web applications through <br/> meticulously crafted code and user-centric design. Eager to learn <br/> and grow in the ever-evolving tech landscape, I continuously seek <br/> out new challenges and opportunities to refine my skills.</h3>
                     <Link to="/contact"><button className='secondary-btn hero-btn'>Say Hello!</button></Link>
 
                     <div className="hero-cards">
