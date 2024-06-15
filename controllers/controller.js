@@ -1,5 +1,5 @@
 // controllers/contactController.js
-const Contact = require('../models/Contact');
+const Contact = require('../models/contact');
 
 exports.createContact = async (req, res) => {
   const { name, email, location, budget, subject, message } = req.body;
