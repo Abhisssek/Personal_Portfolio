@@ -1,6 +1,6 @@
 // routes/contact.js
 const express = require('express');
-const { createContact } = require('../controllers/Controller');
+const { createContact } = require('../controllers/Controller.js');
 const router = express.Router();
 console.log('Current directory:', __dirname);
 console.log('Resolved path:', require('path').resolve(__dirname, '../controllers/Controller'));
