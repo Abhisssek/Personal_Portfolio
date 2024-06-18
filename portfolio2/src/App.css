@@ -1611,6 +1611,7 @@ margin-top: -150px;
     /* height: 100%; */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     z-index: 999999;
+    transition: .25s ease-in-out all;
   }
 
   .nav-items.open {
@@ -1779,6 +1780,7 @@ margin-top: -150px;
     justify-content: center;
     flex-direction: column; /* Stack items vertically */
     margin-left:0px ;
+    margin: auto;
 }
 .port-card{
   width: 80%;
@@ -1850,21 +1852,29 @@ margin-top: -150px;
 .contact-form{
   margin-right: 70px;
 }
+ 
   
+}
+@media  screen and (max-width:437px) {
+  .hero-text h3{
+    margin: 0 15px;
+  }
+}
+
+@media screen and (max-width:543px){
+  .work-cards{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .work-card{
+    width: 100%;
+    margin-left: -30px;
+  }
 }
 
 @media screen and (max-width:321px){
-  .h-card{
-    width: auto;
-  }
-  .h-card h1{
-    font-size: 1.5rem;
-
-  }
-  .h-card h3{
-    font-size: .5rem;
-
-  }
+ 
   .social-card{
     width: auto;
     padding: 0 7px;
@@ -1964,5 +1974,43 @@ margin-top: -150px;
 }
 
 @media screen and (max-width:370px){
-  
+  .h-card{
+    width: auto;
+  }
+  .h-card h1{
+    font-size: 1.5rem;
+
+  }
+  .h-card h3{
+    font-size: .5rem;
+
+  }
+  .about-route-text h3{
+    width: 90%;
+    margin: auto;
+  }
+  .about-route-text h2{
+    font-size: 1.3rem;
+  }
+  .about-route-text2 h3{
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:415px){
+  .about-route-text h3{
+    width: 90%;
+    margin: auto;
+  }
+
+  .about-route-text2 h3{
+    width: 90%;
+    margin: auto;
+  }
+
+  .skill-text h3{
+    width: 90%;
+    margin: auto;
+  }
 }
