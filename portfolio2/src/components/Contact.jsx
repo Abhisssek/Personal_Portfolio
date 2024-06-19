@@ -24,7 +24,7 @@ export const Contact = ({ full }) => {
     e.preventDefault();
     console.log("Form data:", formData);
     try {
-      const response = await fetch("https://abhisek-pattnayak.onrender.com/api/create", {
+      const response = await fetch("https://abhissek.onrender.com/api/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
