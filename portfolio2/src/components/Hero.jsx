@@ -11,7 +11,7 @@ export const Hero = () => {
                     <h3>I'm a student of MCA and an aspiring web developer based in India.  I am passionate<br/> about creating immersive and beautiful web applications through meticulously<br/> crafted code and user-centric design. Eager to learn  and grow in the<br/> ever-evolving tech landscape, I continuously seek  out new challenges<br/> and opportunities to refine my skills.</h3>
                     <Link to="/contact"><button className='secondary-btn hero-btn'>Say Hello!</button></Link>
 
-                    <div className="hero-cards">
+{/*                     <div className="hero-cards">
                         <div className="h-card">
                             <h1>15 Y.</h1>
                             <h3>Experience</h3>
@@ -25,7 +25,7 @@ export const Hero = () => {
                             <h3>Happy Client</h3>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="hero-img">
                     <img src="../img/mainlogo.png" alt="" />
                 </div>
