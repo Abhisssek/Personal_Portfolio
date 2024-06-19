@@ -2014,3 +2014,13 @@ margin-top: -150px;
     margin: auto;
   }
 }
+
+
+@media screen and (max-width:1278px){
+  .hero-text{
+    height: 500px;
+  }
+  .hero-section{
+    margin-bottom: -100px;
+  }
+}
