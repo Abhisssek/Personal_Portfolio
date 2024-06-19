@@ -24,8 +24,8 @@ export const Hero = () => {
                             <h1>58</h1>
                             <h3>Happy Client</h3>
                         </div>
-                    </div>
-                </div> */}
+                    </div>*/}
+                </div> 
                 <div className="hero-img">
                     <img src="../img/mainlogo.png" alt="" />
                 </div>
