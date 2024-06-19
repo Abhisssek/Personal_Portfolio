@@ -37,9 +37,9 @@ export const Services = ({full}) => {
       <section className="services-overview">
         <div className="services-text">
         <h1>What You Can Expect From Me</h1>
-        <h3>I understand that every client is unique, and I work closely with you to understand <br /> your specific needs and preferences.
-        My goal is to create solutions that not <br /> only meet your technical requirements but also align with your business <br />objectives. I use only the highest quality tools and frameworks to ensure <br /> that your applications are robust and scalable.
-        I also offer a wide range <br /> of support and maintenance options to suit your budget and requirements.</h3></div>
+        <h3>I understand that every client is unique, and I work closely with you to understand your specific needs and preferences.
+        My goal is to create solutions that not  only meet your technical requirements but also align with your business objectives. I use only the highest quality tools and frameworks to ensure  that your applications are robust and scalable. <br /> <br />
+        I also offer a wide range  of support and maintenance options to suit your budget and requirements.</h3></div>
         <section className="services-list">
         <h1>What Services I Offer</h1>
         {servicesData.map((service) => (

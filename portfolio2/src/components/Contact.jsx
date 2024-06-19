@@ -95,11 +95,41 @@ export const Contact = ({ full }) => {
                 </div>
               </div>
               <div className="diss-socials">
-                <i className="fa-brands fa-instagram"></i>
-                <i className="fa-brands fa-github"></i>
-                <i className="fa-brands fa-facebook"></i>
-                <i className="fa-brands fa-linkedin"></i>
-                <i className="fa-brands fa-behance"></i>
+                <a
+                  href="https://www.instagram.com/abhissek_07"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-instagram"></i>
+                </a>
+                <a
+                  href="https://github.com/Abhisssek/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-github"></i>
+                </a>
+                <a
+                  href="https://x.com/abhisssek07"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-twitter"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/abhisek-pattanayak-b51331244/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-linkedin"></i>
+                </a>
+                <a
+                  href="https://www.behance.net"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-behance"></i>
+                </a>
               </div>
             </div>
             <div className="diss-right">

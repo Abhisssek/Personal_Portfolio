@@ -79,24 +79,25 @@ export const About = ({ full, half }) => {
     );
   };
 
-  const icon = () => [
-    {
-      id: 1,
-      icon: <i class="fa-brands fa-instagram"></i>,
-    },
-    {
-      id: 1,
-      icon: <i class="fa-brands fa-github"></i>,
-    },
-    {
-      id: 1,
-      icon: <i class="fa-brands fa-linkedin"></i>,
-    },
-    {
-      id: 1,
-      icon: <i class="fa-brands fa-behance"></i>,
-    },
-  ];
+const icons = [
+  {
+    id: 1,
+    icon: <a href="https://www.instagram.com/abhissek_07/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>,
+  },
+  {
+    id: 2,
+    icon: <a href="https://github.com/Abhisssek/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i></a>,
+  },
+  {
+    id: 3,
+    icon: <a href="https://www.linkedin.com/in/abhisek-pattanayak-b51331244/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a>,
+  },
+  {
+    id: 4,
+    icon: <a href="https://x.com/abhisssek07" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-twitter"></i></a>,
+  },
+];
+
   const aboutcard = () => [
     {
       id: 1,
@@ -145,10 +146,10 @@ export const About = ({ full, half }) => {
               <div className="about-left">
                 <h1>What I do?</h1>
                 <h3>
-                  I specialize in full-stack development, creating dynamic and responsive applications. <br /> From front-end interfaces to back-end systems, I deliver comprehensive solutions.
+                  I specialize in full-stack development, creating dynamic and responsive applications. From front-end interfaces to back-end systems, I deliver comprehensive solutions.
                 </h3>
                 <h3>
-                  My expertise includes JavaScript, React, and modern web technologies. <br /> I am dedicated to continuous learning and improvement.
+                  My expertise includes JavaScript, React, and modern web technologies. I am dedicated to continuous learning and improvement.
                 </h3>
                 <Link to="/about">
                   <button className="secondary-btn">Say Hello!</button>
@@ -196,8 +197,8 @@ export const About = ({ full, half }) => {
                     <h3>
                       My approach is to create functional and beautiful web applications. I ensure each project is tailored to meet specific needs, delivering value and excellence. Connect with me to bring your ideas to life.
                       <div className="about-route-social">
-                        {icon().map((icons) => (
-                          <div className="social">{icons.icon}</div>
+                        {icons.map((icon) => (
+                          <div className="social">{icon.icon}</div>
                         ))}
                       </div>
                     </h3>
@@ -209,7 +210,7 @@ export const About = ({ full, half }) => {
                   <h1>Frontend and Backend Developer</h1>
                   <hr />
                   <h3>
-                    With expertise in both front-end and back-end development, I create seamless <br />and integrated web applications. From user interfaces to server-side logic, <br />I build robust and scalable solutions.
+                    With expertise in both front-end and back-end development, I create seamless and integrated web applications. From user interfaces to server-side logic, I build robust and scalable solutions.
                   </h3>
                   <button className=" skill-btn secondary-btn">
                     Download CV
